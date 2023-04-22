@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+   
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Pricing</a>
+              <a class="nav-link disabled">Disabled</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+
+    <template id="product-template">
+        <div class="product">
+          <img class="product-image" src="https://img.lalr.co/cms/2017/04/12033800/Productos_Vendidos_CocaCola1204.jpg?size=sm&ratio=sq&f=jpg" alt="Product Image" />
+          <h2 class="product-name"></h2>
+          <p class="product-price"></p>
+        </div>
+      </template>
+      
+      <div class="product-list">
+        <product-item></product-item>
+        <product-item></product-item>
+        <product-item></product-item>
+      </div>
+
+
+      <script type="module" src="./products.js"></script>
+      
+</body>
+</html>
